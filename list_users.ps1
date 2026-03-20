@@ -1,4 +1,5 @@
-#
-# Get-LocalUser
+#List users
+Get-LocalUser
 
 Get-LocalUser | Select-Object Name, Enabled, LastLogon
+#To display only the name, enabled status, and last logon time
